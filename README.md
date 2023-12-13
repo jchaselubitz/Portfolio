@@ -23,6 +23,8 @@ A blockchain-based tool for compensating contributors to early-stage projects
 
 ### Voxalyze
 
-- Repository (contributor)
-- stack
-- demo site
+Helping professional singers improve: A Convolutional Neural Network (and LSTM) trained to recognize proper Scales and Arpeggios.
+
+- [Repository](https://github.com/ElsaGregoire/vocal_patterns) (contributor)
+- Python, Tensorflow, GCP
+- [Live Site](https://voxalyze.streamlit.app/)
