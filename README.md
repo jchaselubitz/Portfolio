@@ -11,7 +11,7 @@ A digital operations manager for pizza shops.
 Capturing and generating content for language learning.
 
 - [Code Repository](https://github.com/jchaselubitz/drill-2)
-- [Webapp](https://drilllang.netlify.app/)
+- [Webapp](https://drillapp.xyz)
     - Nextjs (App Router) / OpenAI / Supabase / Deno
 
 ### Syndicate (for client)
