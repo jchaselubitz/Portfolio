@@ -1,6 +1,6 @@
 # Portfolio
 
-### Conject - Disagree Agreeably
+### Conject - Disagree Agreeably (Work in Progress)
 Social blogging that mixes the features of Substack, Google Docs, and Reddit to encourage thoughful discourse and debate on any subject. Annotations with nested comments allow users to debate specific statements, while rebuttles allow users to respond to entire conjectures.
 - [Code Repository](https://github.com/jchaselubitz/conjecture)
 - [Webapp](https://conject.io/)
@@ -8,12 +8,14 @@ Social blogging that mixes the features of Substack, Google Docs, and Reddit to 
      - Comprehensive newsletter functionality
      - WYSIWYG text editor with deep functionality
 
+**Note:** I used Cursor extensively for this project in order to form better AI coding habits. Much of the code for generating HTML, for example, is Cursor-generated, as are many of the custom TipTap extensions, although the latter required considerable manual intervention.
+
 ### Drill - AI Language Learning Tools
 Capturing and generating content for language learning.
 - [Overview](https://cooperativ.io/?project=1)
 - [Code Repository](https://github.com/jchaselubitz/drill-2)
 - [Project Video](https://www.youtube.com/watch?v=uilJL5JW-2g)
-- - [Webapp](https://drillapp.xyz)
+- [Webapp](https://drillapp.xyz)
     - Nextjs (App Router) / OpenAI / Supabase / Deno
     - Podcast, recording, and upload transcription
     - Chat with AI about specific library content
@@ -34,7 +36,7 @@ A digital operations manager for pizza shops.
 An ethereum-based platform for conducting Reg-D compliant private offerings.
 - [Overview](https://cooperativ.io/?project=3)
 - [Frontend repository](https://github.com/cooperativ-labs/syndicate)
-- [Smart contracts](https://github.com/cooperativ-labs/private-offering-contract) (Project lead. Did not code)
+- [Smart contracts](https://github.com/cooperativ-labs/private-offering-contract) (Led design, but did not code)
 - [Product website](https://cooperativ.io/syndicate)
 - [Demo videos](https://www.youtube.com/playlist?list=PLdUGBxGRPWz_n-tWwlKt_o6phKlHsR6CC)
     - NextJS / Typescript / GraphQL / Solidity
