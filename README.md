@@ -29,8 +29,9 @@ A digital operations manager for pizza shops.
 - [Product Videos](https://www.youtube.com/watch?v=gJ0jTCnsPpY&list=PLdUGBxGRPWz_K4I2NzjRNHcLCMRfEV0zH)
 - [WebApp](https://main--nyca.netlify.app/)
     - Nextjs (App Router) / Supabase / Deno
-    - IoT integration
+    - IoT integration (Mocreo tempurature sensors)
     - Ordering system integration
+    - Deep Slack integration including webhooks and interactivity
 
 ### Syndicate (for client)
 An ethereum-based platform for conducting Reg-D compliant private offerings.
