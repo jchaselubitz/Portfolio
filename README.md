@@ -13,7 +13,7 @@ Capturing and generating content for language learning.
     - Writing review and explanation of corrections 
 
 ### NYCA - TOP (for client)
-A digital operations manager for pizza shops.
+A digital operations manager for pizza shops. The client required custom workflows with an advanced scheduling engine that directs employees to complete tasks and collect equipment information at specific times. The platform also collects and presents data from temperature sensors,and allows users to interface with many functions through a custom Slack app.
 - [Overview](https://cooperativ.io/?project=2)
 - [Code Repository (private - availible upon request)](https://github.com/cooperativ-labs/NYCA-TOP)
 - [Product Videos](https://www.youtube.com/watch?v=gJ0jTCnsPpY&list=PLdUGBxGRPWz_K4I2NzjRNHcLCMRfEV0zH)
