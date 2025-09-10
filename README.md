@@ -1,15 +1,5 @@
 # Portfolio
 
-### Conject - Disagree Agreeably (Work in Progress)
-Social blogging that mixes the features of Substack, Google Docs, and Reddit to encourage thoughful discourse and debate on any subject. Annotations with nested comments allow users to debate specific statements, while rebuttles allow users to respond to entire conjectures.
-- [Code Repository](https://github.com/jchaselubitz/conjecture)
-- [Webapp](https://conject.io/)
-     - Nextjs (App Router) / Supabase / Deno / Resend
-     - Comprehensive newsletter functionality
-     - WYSIWYG text editor with deep functionality
-
-**Note:** I used Cursor extensively for this project in order to form better AI coding habits. Much of the code for generating HTML, for example, is Cursor-generated, as are many of the custom TipTap extensions, although the latter required considerable manual intervention.
-
 ### Drill - AI Language Learning Tools
 Capturing and generating content for language learning.
 - [Overview](https://cooperativ.io/?project=1)
@@ -32,6 +22,17 @@ A digital operations manager for pizza shops.
     - IoT integration (Mocreo tempurature sensors)
     - Ordering system integration
     - Deep Slack integration including webhooks and interactivity
+    - Stripe subscription and payment management
+ 
+### Conject - Disagree Agreeably (Work in Progress)
+Social blogging that mixes the features of Substack, Google Docs, and Reddit to encourage thoughful discourse and debate on any subject. Annotations with nested comments allow users to debate specific statements, while rebuttles allow users to respond to entire conjectures.
+- [Code Repository](https://github.com/jchaselubitz/conjecture)
+- [Webapp](https://conject.io/)
+     - Nextjs (App Router) / Supabase / Deno / Resend
+     - Comprehensive newsletter functionality
+     - WYSIWYG text editor with deep functionality
+
+**Note:** I used Cursor extensively for this project in order to form better AI coding habits. Much of the code for generating HTML, for example, is Cursor-generated, as are many of the custom TipTap extensions, although the latter required considerable manual intervention.
 
 ### Syndicate (for client)
 An ethereum-based platform for conducting Reg-D compliant private offerings.
