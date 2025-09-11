@@ -1,7 +1,7 @@
 # Portfolio
 
 ### Drill - AI Language Learning Tools
-Capturing and generating content for language learning.
+Capturing and generating content for language learning. Drill not only lets users create study content and export to Anki (a popular study tool), but it also helps users learn to express themselves by prompting them to draft short paragraphs about a subject of there in their target language, then providing corrections and clear explanations for what it corrected.
 - [Overview](https://cooperativ.io/?project=1)
 - [Code Repository](https://github.com/jchaselubitz/drill-2)
 - [Project Video](https://www.youtube.com/watch?v=uilJL5JW-2g)
