@@ -1,4 +1,5 @@
 # Portfolio
+You can also find me on [LinkedIn](https://www.linkedin.com/in/jchaselubitz/)
 
 ### Drill - AI Language Learning Tools
 Capturing and generating content for language learning. Drill not only lets users create study content and export to Anki (a popular study tool), but it also helps users learn to express themselves by prompting them to draft short paragraphs about a subject of there in their target language, then providing corrections and clear explanations for what it corrected.
