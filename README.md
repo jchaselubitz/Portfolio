@@ -11,7 +11,14 @@ Capturing and generating content for language learning. Drill not only lets user
     - Podcast, recording, and upload transcription
     - Chat with AI about specific library content
     - Translation
-    - Writing review and explanation of corrections 
+    - Writing review and explanation of corrections
+ 
+### Drill App - Mobile App With Spaced Repetion 
+Drill helps users learn to express themselves by prompting them to draft short paragraphs about a subject of there in their target language, then providing corrections and clear explanations for what it corrected.
+- [Code Repository](https://github.com/jchaselubitz/drill-app)
+- [App Store Listing] (coming soon)
+    - React Native with Expo Router
+    - Built and submitted in one week with help from Claude, ChatGPT, and Cursor 
 
 ### NYCA - TOP (for client)
 A digital operations manager for pizza shops. The client required custom workflows with an advanced scheduling engine that directs employees to complete tasks and collect equipment information at specific times. The platform also collects and presents data from temperature sensors,and allows users to interface with many functions through a custom Slack app.
