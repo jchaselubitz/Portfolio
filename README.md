@@ -1,6 +1,20 @@
 # Portfolio
 You can also find me on [LinkedIn](https://www.linkedin.com/in/jchaselubitz/)
 
+### Overskill - A CLI for managing skills across repositories.
+Tools like Claude Code offer built-in plugin systems for distributing skills. Overskill takes a different approach — skills live in your repo as plain files — and this comes with meaningful advantages:
+- **Agent-agnostic**: Overskill skills work with Claude Code, Cursor, Codex, Windsurf, and any agent that can read markdown. Plugins lock you into a single tool.
+- **Transparent and auditable**: Skills are visible files in your project. You can read, diff, and review them like any other code. Plugin skills are buried in global cache directories.
+- **Version-locked per repo**: `.skills.lock` pins exact versions and hashes to each commit, giving you reproducible builds. Plugins are installed globally or per-user with no per-repo lockfile.
+- **Team-friendly**: `skill sync` works like `npm install` — clone the repo, run one command, and everyone has the same skills at the same versions. Plugins require each developer to install them separately.
+- **Full control over activation**: You decide how and when skills are loaded via `CLAUDE.md`, `.cursor/rules`, or `AGENTS.md`. Plugin activation is controlled by the agent vendor.
+- **Works offline**: Once synced, skills are local files with no runtime dependency on external services.
+- **No vendor dependency**: Your skills aren't tied to a plugin API that could change or be deprecated. They're markdown files — the most durable format there is.
+- [Code Repository](https://github.com/jchaselubitz/overskill-cli)
+- [NPM] - coming soon
+- [Homebrew] - comming soon
+
+
 ### Drill - AI Language Learning Tools
 Capturing and generating content for language learning. Drill not only lets users create study content and export to Anki (a popular study tool), but it also helps users learn to express themselves by prompting them to draft short paragraphs about a subject of there in their target language, then providing corrections and clear explanations for what it corrected.
 - [Overview](https://cooperativ.io/?project=1)
