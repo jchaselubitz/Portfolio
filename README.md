@@ -1,23 +1,21 @@
 # Portfolio
 You can also find me on [LinkedIn](https://www.linkedin.com/in/jchaselubitz/)
 
-### Overskill - A CLI for managing skills across repositories.
-Overskill is a skills manager for AI coding agents. It gives you a single place to write, version, and share the instruction files that guide tools like Claude Code, Cursor, Codex, and Windsurf — then apply them to any repository with one command.
-Write once, use everywhere. Create a skill once and add it to as many repositories as you need. When you improve it, update every project in seconds.
-Agent-agnostic. Skills are plain markdown files. They work with any agent that can read markdown — no plugin API, no vendor lock-in.
-Version-locked per repo. .skills.lock pins exact versions and content hashes, so every collaborator and CI run gets the same skills.
-Transparent and auditable. Skills live in your project as visible files you can read, diff, and review like any other code.
-Works offline. Once synced, skills are local files with no runtime dependency on external services.
+### 1. Overskill - A CLI for managing AI skills across repositories
+Overskill is a skills manager for AI coding agents. It gives you a single place to write, version, and share the instruction files that guide tools like Claude Code, Cursor, Codex, and Windsurf — then apply them to any repository with one command. Write once, use everywhere. Create a skill once and add it to as many repositories as you need. When you improve it, update every project in seconds. Agent-agnostic. Skills are plain markdown files. They work with any agent that can read markdown — no plugin API, no vendor lock-in. Version-locked per repo. .skills.lock pins exact versions and content hashes, so every collaborator and CI run gets the same skills. Transparent and auditable. Skills live in your project as visible files you can read, diff, and review like any other code. Works offline. Once synced, skills are local files with no runtime dependency on external services.
 - [Code Repository](https://github.com/jchaselubitz/overskill-cli)
 - [NPM](https://www.npmjs.com/package/overskill)
-- [Homebrew] - comming soon
+```
+# Homebrew
+brew tap jchaselubitz/tap
+brew install overskill
+```
 
-
-### Drill - AI Language Learning Tools
+### 2. Drill - AI Language Learning Tools
 Capturing and generating content for language learning. Drill not only lets users create study content and export to Anki (a popular study tool), but it also helps users learn to express themselves by prompting them to draft short paragraphs about a subject of there in their target language, then providing corrections and clear explanations for what it corrected.
 - [Overview](https://cooperativ.io/?project=1)
 - [Code Repository](https://github.com/jchaselubitz/drill-2)
-- [Project Video](https://www.youtube.com/watch?v=uilJL5JW-2g)
+- [Project Video](https://www.youtube.com/watch?v=uilJL5JW-2g) - currently paused
 - [Webapp](https://drillapp.xyz)
     - Nextjs (App Router) / OpenAI / Supabase / Deno
     - Podcast, recording, and upload transcription
@@ -25,14 +23,14 @@ Capturing and generating content for language learning. Drill not only lets user
     - Translation
     - Writing review and explanation of corrections
  
-### Drill App - Mobile App With Spaced Repetion 
-Drill helps users learn to express themselves by prompting them to draft short paragraphs about a subject of there in their target language, then providing corrections and clear explanations for what it corrected.
+### 3. Drill App - Mobile App With Spaced Repetion 
+Like Drill AI, but with the convenience of a native mobile app
 - [Code Repository](https://github.com/jchaselubitz/drill-app)
-- [App Store Listing] (coming soon)
+- [App Store Listing] ([coming soon](https://apps.apple.com/de/app/drill-learning/id6757759632?l=en-GB))
     - React Native with Expo Router
     - Built and submitted in one week with help from Claude, ChatGPT, and Cursor 
 
-### NYCA - TOP (for client)
+### 4. NYCA - TOP (for client)
 A digital operations manager for pizza shops. The client required custom workflows with an advanced scheduling engine that directs employees to complete tasks and collect equipment information at specific times. The platform also collects and presents data from temperature sensors,and allows users to interface with many functions through a custom Slack app.
 - [Overview](https://cooperativ.io/?project=2)
 - [Code Repository (private - availible upon request)](https://github.com/cooperativ-labs/NYCA-TOP)
@@ -44,7 +42,7 @@ A digital operations manager for pizza shops. The client required custom workflo
     - Deep Slack integration including webhooks and interactivity
     - Stripe subscription and payment management
  
-### Conject - Disagree Agreeably (Work in Progress)
+### 5. Conject - Disagree Agreeably (Work in Progress)
 Social blogging that mixes the features of Substack, Google Docs, and Reddit to encourage thoughful discourse and debate on any subject. Annotations with nested comments allow users to debate specific statements, while rebuttles allow users to respond to entire conjectures.
 - [Code Repository](https://github.com/jchaselubitz/conjecture)
 - [Webapp](https://conject.io/)
@@ -54,7 +52,7 @@ Social blogging that mixes the features of Substack, Google Docs, and Reddit to 
 
 **Note:** I used Cursor extensively for this project in order to form better AI coding habits. Much of the code for generating HTML, for example, is Cursor-generated, as are many of the custom TipTap extensions, although the latter required considerable manual intervention.
 
-### Syndicate (for client)
+### 6. Syndicate (for client)
 An ethereum-based platform for conducting Reg-D compliant private offerings.
 - [Overview](https://cooperativ.io/?project=3)
 - [Frontend repository](https://github.com/cooperativ-labs/syndicate)
@@ -63,7 +61,7 @@ An ethereum-based platform for conducting Reg-D compliant private offerings.
 - [Demo videos](https://www.youtube.com/playlist?list=PLdUGBxGRPWz_n-tWwlKt_o6phKlHsR6CC)
     - NextJS / Typescript / GraphQL / Solidity
 
-### Contributor Credits
+### 7. Contributor Credits
 A blockchain-based tool for compensating contributors to early-stage projects
 - [Frontend repository](https://github.com/cooperativ-labs/contributor-credits-frontend)
 - Smart contracts (Project lead. Did not code)
@@ -72,7 +70,7 @@ A blockchain-based tool for compensating contributors to early-stage projects
 - [Product website](https://contributorcredits.com/)
     - NextJS / Typescript / GraphQL / Solidity / Firebase
 
-### Voxalyze
+### 8. Voxalyze
 Helping professional singers improve: A Convolutional Neural Network (and LSTM) trained to recognize proper Scales and Arpeggios.
 - [Repository](https://github.com/ElsaGregoire/vocal_patterns) (contributor)
 - [Live Site](https://voxalyze.streamlit.app/)
