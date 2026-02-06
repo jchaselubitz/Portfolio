@@ -2,16 +2,14 @@
 You can also find me on [LinkedIn](https://www.linkedin.com/in/jchaselubitz/)
 
 ### Overskill - A CLI for managing skills across repositories.
-Tools like Claude Code offer built-in plugin systems for distributing skills. Overskill takes a different approach — skills live in your repo as plain files — and this comes with meaningful advantages:
-- **Agent-agnostic**: Overskill skills work with Claude Code, Cursor, Codex, Windsurf, and any agent that can read markdown. Plugins lock you into a single tool.
-- **Transparent and auditable**: Skills are visible files in your project. You can read, diff, and review them like any other code. Plugin skills are buried in global cache directories.
-- **Version-locked per repo**: `.skills.lock` pins exact versions and hashes to each commit, giving you reproducible builds. Plugins are installed globally or per-user with no per-repo lockfile.
-- **Team-friendly**: `skill sync` works like `npm install` — clone the repo, run one command, and everyone has the same skills at the same versions. Plugins require each developer to install them separately.
-- **Full control over activation**: You decide how and when skills are loaded via `CLAUDE.md`, `.cursor/rules`, or `AGENTS.md`. Plugin activation is controlled by the agent vendor.
-- **Works offline**: Once synced, skills are local files with no runtime dependency on external services.
-- **No vendor dependency**: Your skills aren't tied to a plugin API that could change or be deprecated. They're markdown files — the most durable format there is.
+Overskill is a skills manager for AI coding agents. It gives you a single place to write, version, and share the instruction files that guide tools like Claude Code, Cursor, Codex, and Windsurf — then apply them to any repository with one command.
+Write once, use everywhere. Create a skill once and add it to as many repositories as you need. When you improve it, update every project in seconds.
+Agent-agnostic. Skills are plain markdown files. They work with any agent that can read markdown — no plugin API, no vendor lock-in.
+Version-locked per repo. .skills.lock pins exact versions and content hashes, so every collaborator and CI run gets the same skills.
+Transparent and auditable. Skills live in your project as visible files you can read, diff, and review like any other code.
+Works offline. Once synced, skills are local files with no runtime dependency on external services.
 - [Code Repository](https://github.com/jchaselubitz/overskill-cli)
-- [NPM] - coming soon
+- [NPM](https://www.npmjs.com/package/overskill)
 - [Homebrew] - comming soon
 
 
